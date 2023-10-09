@@ -5105,7 +5105,7 @@
             i = null,
             n = function() {
                 var t = new XMLHttpRequest;
-                t.open("GET", e + "tiles.json", !0), t.responseType = "json", t.onload = function() {
+                t.open("GET", e + "./js/tiles.json", !0), t.responseType = "json", t.onload = function() {
                     200 == t.status && (i = new Set(t.response))
                 }, t.send()
             };
